@@ -1,0 +1,7 @@
+pubfig_bw(gcf)
+pubfig_m(gcf,'^ANCA','marker','^')
+pubfig_m(gcf,'^Non renal ANCA','marker','v')
+pubfig_m(gcf,'^GN','marker','o')
+pubfig_m(gcf,'Active','face','k')
+pubfig_m(gcf,'Remission','face','w')
+pubfig_m(gcf,'Grumbling','face','k')

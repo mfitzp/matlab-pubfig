@@ -1,0 +1,8 @@
+pubfig_bw(gcf)
+pubfig_rm_labels(gcf)
+pubfig_m(gcf,'MPO','marker','o')
+pubfig_m(gcf,'HSA','marker','o')
+pubfig_m(gcf,'HSA','face','w')
+pubfig_m(gcf,'Unt','marker','^')
+pubfig_m(gcf,'Unt','face',[0.8,0.8,0.8])
+pubfig_m(gcf,'210s','face',[0.8,0.8,0.8])

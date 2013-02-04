@@ -1,0 +1,6 @@
+pubfig_bw(gcf)
+pubfig_rm_labels(gcf)
+pubfig_m(gcf,'Old','marker','o')
+pubfig_m(gcf,'Young','marker','o')
+pubfig_m(gcf,'Old','face','k')
+pubfig_m(gcf,'Young','face','w')
