@@ -15,6 +15,8 @@ for i = 1:length( hdl )
             set(hdl(i), 'Marker',value); 
         elseif strcmp(action, 'face')
             set(hdl(i), 'MarkerFaceColor',value); 
+        elseif strcmp(action, 'size')
+            set(hdl(i), 'MarkerSize',value); 
         elseif strcmp(action, 'line')
             set(hdl(i), 'LineStyle',value); 
         elseif strcmp(action, 'visible')
