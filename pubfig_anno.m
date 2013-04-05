@@ -5,7 +5,7 @@ function pubfig_anno(fh,annotations)
 cursorMode = datacursormode(fh);
 % Delete previous data tips
 cursorMode.removeAllDataCursors()
-set(cursorMode, 'enable','on', 'NewDataCursorOnClick',false, 'SnapToDataVertex', 'on', 'UpdateFcn',@dummy_updatefcn);
+set(cursorMode, 'enable','on', 'NewDataCursorOnClick',false, 'SnapToDataVertex', 'on', 'UpdateFcn',@pubfig_dtip_updfcn);
 % Note: the optional @setDataTipTxt is used to customize the data-tip's appearance
  
 % Note: the following code was adapted from %matlabroot%\toolbox\matlab\graphics\datacursormode.m
